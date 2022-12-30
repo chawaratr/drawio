@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-30T08:02:25.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="myxIwzdFSBISWI5fObWs" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-30T08:04:57.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="Vh6IA_SWrfWyCEg53Wmt" type="github">
   <diagram id="NOjPWhyfAOm2c_LHpNS8" name="Page-1">
     <mxGraphModel dx="2629" dy="-1383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -247,7 +247,7 @@
             <mxPoint x="1830" y="2870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GFEaW2BTiUz7oHs1Tlo9-128" value="&lt;h1&gt;Case7.1# L0.zbal &amp;gt;= 0; L0.mbal &amp;lt; 0 all account has satisfied their MFU/MFD&amp;nbsp;&lt;/h1&gt;&lt;p&gt;All account direction = &quot;B&quot;&lt;/p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;12851563&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;direction is UP only&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="GFEaW2BTiUz7oHs1Tlo9-128" value="&lt;h1&gt;Case7.1# L0.zbal &amp;gt;= 0; L0.mbal &amp;lt; 0 all account has satisfied their MFU/MFD&amp;nbsp;&lt;/h1&gt;&lt;p&gt;All account direction = &quot;B&quot;&lt;/p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;12851563&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;direction is UP only&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;12043939 has only min for down=10&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="3160" width="890" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GFEaW2BTiUz7oHs1Tlo9-172" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;MU500&lt;/font&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
