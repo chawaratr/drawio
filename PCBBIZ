@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T03:17:39.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="IvgKrNNOxQ163j76mkaI" version="20.8.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-17T07:01:43.488Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="NSWxxtklyD3eVDw7y4eq" version="20.8.1" type="github" pages="7">
   <diagram id="Jzr8ip4AXFCuEeb9BBi_" name="Overall">
     <mxGraphModel dx="2641" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -811,6 +811,87 @@
         </mxCell>
         <mxCell id="1lg0cZaolawvtCuBVFFZ-100" value="FindCase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="405" y="3370" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_DC9x7qlOceNFJs5zkVY" name="PCBBIZ-LMS-SWEEP-POSTING">
+    <mxGraphModel dx="1821" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XY0tf59A7zXcpCzfYm58-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XY0tf59A7zXcpCzfYm58-1" target="XY0tf59A7zXcpCzfYm58-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XY0tf59A7zXcpCzfYm58-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-1" value="Transaction posting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-2" value="MQ&lt;br&gt;(channel name=xxxx)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XY0tf59A7zXcpCzfYm58-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-4" value="Get Response" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="110" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XY0tf59A7zXcpCzfYm58-5" target="XY0tf59A7zXcpCzfYm58-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-5" value="MQ&lt;br&gt;(channel name=xxxx)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-7" value="rquid=66812_aaaaaaaa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-8" value="rquid=66812_bbbbbbbb" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="150" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-9" value="rquid=66812_aaaaaaaa_OK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="460" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-10" value="rquid=66812_bbbbbbbb_NOTOK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="480" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-14" value="rquid=66812_cccccccccc" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-15" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="370" y="390" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-17" value="update status to waiting = 99" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="315" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-18" value="add status to success = 00" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="530" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-19" value="add status to unsuccess = 10" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="550" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-21" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;pcbbiz-lms-eod-post-request&lt;/font&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-22" value="YDB&lt;br&gt;^ZLMSTPST" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="140" y="290" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-23" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;pcbbiz-lms-eod-post-response&lt;/font&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="110" y="420" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-24" value="&lt;h1&gt;Solution&lt;/h1&gt;&lt;p&gt;1. Start batch program to subscribe mq and wait response.&lt;/p&gt;&lt;p&gt;2. parse response to struct and query db to check status.&lt;/p&gt;&lt;p&gt;3. if status is 99, update status = response status&lt;/p&gt;&lt;p&gt;4. if query db and not found, write reject to file.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="600" y="370" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-25" value="&lt;h1&gt;&lt;font color=&quot;#ff0f0f&quot;&gt;Remark&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;PCBGW will handle reverse and retry.&lt;/p&gt;&lt;p&gt;PCBBIZ LMS will not has solution to retry posting.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XY0tf59A7zXcpCzfYm58-26" value="PCBBIZ-LMS-SWEEP-POSTING" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#3399FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
