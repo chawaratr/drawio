@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T04:24:30.900Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="u9gwdOrJME0VNohFE-_c" version="20.8.18" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-02-16T11:01:23.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="z7szrq77sBValOZw7xe_" version="20.8.20" type="github" pages="10">
   <diagram id="Jzr8ip4AXFCuEeb9BBi_" name="Overall">
-    <mxGraphModel dx="1418" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2954" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1108,7 +1108,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DpdZPcZ3pyKG_Ny26W2O" name="LMS Lock">
-    <mxGraphModel dx="7635" dy="4407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="8156" dy="4602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1125,10 +1125,10 @@
           <mxGeometry x="1150" y="130" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_cJLXouC1P6vcHd6qGdc-4" value="PKG locktrn(ctx, CORPCD)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fontSize=20;fillColor=#cce5ff;" parent="1" vertex="1">
-          <mxGeometry x="192.5" y="80" width="295" height="60" as="geometry" />
+          <mxGeometry x="195" y="50" width="295" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_cJLXouC1P6vcHd6qGdc-5" value="&lt;font color=&quot;#00cc00&quot;&gt;get last seq by corp in ^ZLMSLOCK&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;if undefined -&amp;gt; set SEQ=0 -&amp;gt; add&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#ff1f17&quot;&gt;else set SEQ = get last SEQ+1 -&amp;gt; add&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#3399FF;" parent="1" vertex="1">
-          <mxGeometry x="150" y="160" width="360" height="30" as="geometry" />
+        <mxCell id="_cJLXouC1P6vcHd6qGdc-5" value="&lt;font color=&quot;#00cc00&quot;&gt;check zombie locked if time expire -&amp;gt; force unlocked&lt;br&gt;get last seq by corp in ^ZLMSLOCK&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;if undefined -&amp;gt; set SEQ=0 -&amp;gt; add&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#ff1f17&quot;&gt;else set SEQ = get last SEQ+1 -&amp;gt; add&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#3399FF;" parent="1" vertex="1">
+          <mxGeometry x="125" y="160" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_cJLXouC1P6vcHd6qGdc-6" value="^ZLMSLOCK(&quot;CORPCD&quot;,&quot;TICKETID&quot;)=RQUID|STATUS|DateTimeStamp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#3399FF;" parent="1" vertex="1">
           <mxGeometry x="1145" y="690" width="60" height="30" as="geometry" />
@@ -1185,10 +1185,10 @@
           <mxGeometry x="35" y="620" width="660" height="520" as="geometry" />
         </mxCell>
         <mxCell id="qqnIu1y5O4TQgKOQaUfD-5" value="PKG locktrn(ctx, CORPCD)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fontSize=20;fillColor=#cce5ff;" parent="1" vertex="1">
-          <mxGeometry x="197.5" y="660" width="295" height="60" as="geometry" />
+          <mxGeometry x="200" y="630" width="295" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qqnIu1y5O4TQgKOQaUfD-6" value="&lt;font color=&quot;#00cc00&quot;&gt;get last seq by corp in ^ZLMSLOCK&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#ff1f17&quot;&gt;if undefined -&amp;gt; set SEQ=0&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;else set SEQ = get last SEQ+1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#3399FF;" parent="1" vertex="1">
-          <mxGeometry x="155" y="740" width="360" height="30" as="geometry" />
+        <mxCell id="qqnIu1y5O4TQgKOQaUfD-6" value="&lt;font color=&quot;#00cc00&quot;&gt;check zombie locked if time expire -&amp;gt; force unlocked&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;get last seq by corp in ^ZLMSLOCK&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#ff1f17&quot;&gt;if undefined -&amp;gt; set SEQ=0&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;else set SEQ = get last SEQ+1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#3399FF;" parent="1" vertex="1">
+          <mxGeometry x="155" y="740" width="475" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qqnIu1y5O4TQgKOQaUfD-7" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff1f17&quot;&gt;if equal&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#ff1f17&quot;&gt;&lt;span style=&quot;&quot;&gt;set lock -&amp;gt; update status to locked&lt;/span&gt;&lt;br&gt;return nil&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#3399FF;" parent="1" vertex="1">
           <mxGeometry x="205" y="910" width="330" height="90" as="geometry" />
@@ -1242,7 +1242,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qqnIu1y5O4TQgKOQaUfD-28" value="Lock checker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#FF1F17;" parent="1" vertex="1">
-          <mxGeometry x="-280" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="1810" y="-20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qqnIu1y5O4TQgKOQaUfD-29" value="SEQ=0" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="125" y="220" width="60" height="30" as="geometry" />
