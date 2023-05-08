@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-02T12:05:57.336Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="8baKvKr6ywf9yN_-UOWR" version="21.1.5" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-05-08T04:52:29.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ulq5IEE-8aU44RPMLKD9" version="21.1.5" type="github" pages="13">
   <diagram id="Jzr8ip4AXFCuEeb9BBi_" name="Overall">
-    <mxGraphModel dx="1764" dy="1898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2480" dy="1898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1476,10 +1476,43 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fEsRW5Ss18rUVyjrj_De" name="pcbbiz-lms-online-transaction">
-    <mxGraphModel dx="2954" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="2480" dy="1071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1H6dHNmqAzn05CD-L65g-2" value="Transaction Posting" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="180" y="110" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1H6dHNmqAzn05CD-L65g-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1H6dHNmqAzn05CD-L65g-3" target="1H6dHNmqAzn05CD-L65g-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1H6dHNmqAzn05CD-L65g-3" value="Cal Movement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1H6dHNmqAzn05CD-L65g-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1H6dHNmqAzn05CD-L65g-4" target="1H6dHNmqAzn05CD-L65g-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1H6dHNmqAzn05CD-L65g-4" value="Create ZLMSTPST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1H6dHNmqAzn05CD-L65g-5" value="คู่บัญชี ที่จะทำการ โยกงเิน" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="335" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1H6dHNmqAzn05CD-L65g-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1H6dHNmqAzn05CD-L65g-6" target="1H6dHNmqAzn05CD-L65g-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1H6dHNmqAzn05CD-L65g-6" value="Create ZLMSHRZPST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1H6dHNmqAzn05CD-L65g-7" value="แยกตามบบัญชี ที่จะทำการ DR/CR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="450" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1H6dHNmqAzn05CD-L65g-8" value="Create ZBIZMOVPST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1H6dHNmqAzn05CD-L65g-9" value="แยกตามบบัญชี STATE &amp;amp; Result ที่ได้จากการ post" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="570" width="180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
