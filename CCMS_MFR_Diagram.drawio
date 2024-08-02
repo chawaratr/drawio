@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-10T05:14:12.671Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="o-HXCUSfudvd8j2QpCny" version="24.4.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.4" pages="10">
   <diagram id="FV1fXgGwBF05205CUe9D" name="App Interface">
     <mxGraphModel dx="2506" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -1251,10 +1251,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CpwNjW_EJ-k881jmtr6J" name="K+_Change_Pin">
-    <mxGraphModel dx="4426" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="3220" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="f1vhWMdJ7WvHAG0s9QlX-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="560" width="1230" height="490" as="geometry" />
+        </mxCell>
         <mxCell id="uU9CYOC97-7Y-kWvk45v-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uU9CYOC97-7Y-kWvk45v-1" target="uU9CYOC97-7Y-kWvk45v-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1329,10 +1332,10 @@
         <mxCell id="PdXJfr8MsJAZElw4Hdz9-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="640" width="160" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="PdXJfr8MsJAZElw4Hdz9-2" value="K+" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="PdXJfr8MsJAZElw4Hdz9-2" value="&lt;h2&gt;&lt;b&gt;K+&lt;/b&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="640" width="120" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="PdXJfr8MsJAZElw4Hdz9-3" value="CCMS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="PdXJfr8MsJAZElw4Hdz9-3" value="&lt;h2&gt;&lt;b&gt;CCMS&lt;/b&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="640" width="120" height="350" as="geometry" />
         </mxCell>
         <mxCell id="PdXJfr8MsJAZElw4Hdz9-4" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
@@ -1371,8 +1374,8 @@
         <mxCell id="PdXJfr8MsJAZElw4Hdz9-11" value="4 RSA public key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="160" y="698" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PdXJfr8MsJAZElw4Hdz9-12" value="Device / Mobile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="610" width="100" height="30" as="geometry" />
+        <mxCell id="PdXJfr8MsJAZElw4Hdz9-12" value="&lt;h2&gt;&lt;b&gt;Device / Mobile&lt;/b&gt;&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="610" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PdXJfr8MsJAZElw4Hdz9-13" value="Input PIN&lt;br&gt;Gen ISO PinBlock format 1&lt;br&gt;(not require PAN)&lt;br&gt;&lt;br&gt;Gen ZPK&lt;br&gt;Encrypt pin block with ZPK&lt;br&gt;&lt;br&gt;Encrypt ZPK with RSA public key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-20" y="728" width="160" height="30" as="geometry" />
@@ -1410,10 +1413,10 @@
             <mxPoint x="450" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PdXJfr8MsJAZElw4Hdz9-22" value="7 return complete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="PdXJfr8MsJAZElw4Hdz9-22" value="8 return complete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="410" y="948" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PdXJfr8MsJAZElw4Hdz9-23" value="8 return complete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="PdXJfr8MsJAZElw4Hdz9-23" value="9 return complete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="150" y="940" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PdXJfr8MsJAZElw4Hdz9-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.025;exitY=0.942;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.006;entryY=0.945;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="PdXJfr8MsJAZElw4Hdz9-2" target="PdXJfr8MsJAZElw4Hdz9-1" edge="1">
@@ -1421,6 +1424,27 @@
             <mxPoint x="130" y="990" as="sourcePoint" />
             <mxPoint x="180" y="940" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="f1vhWMdJ7WvHAG0s9QlX-1" value="HSM Thales PayShield10K" style="image;html=1;image=img/lib/clip_art/computers/Harddrive_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="800" y="678" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f1vhWMdJ7WvHAG0s9QlX-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1.028;exitY=0.233;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PdXJfr8MsJAZElw4Hdz9-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="730" as="sourcePoint" />
+            <mxPoint x="790" y="722" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1vhWMdJ7WvHAG0s9QlX-5" value="TANDEM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f1vhWMdJ7WvHAG0s9QlX-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PdXJfr8MsJAZElw4Hdz9-20" target="f1vhWMdJ7WvHAG0s9QlX-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="1000" as="sourcePoint" />
+            <mxPoint x="830" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1vhWMdJ7WvHAG0s9QlX-7" value="7 Tandem update pinoffset" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="950" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
