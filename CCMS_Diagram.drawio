@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7" pages="11">
   <diagram id="FV1fXgGwBF05205CUe9D" name="App Interface">
     <mxGraphModel dx="2506" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -1251,7 +1251,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CpwNjW_EJ-k881jmtr6J" name="K+_Change_Pin">
-    <mxGraphModel dx="3490" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="3250" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1422,116 +1422,260 @@
             <mxPoint x="180" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="1140" width="160" height="410" as="geometry" />
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="1140" width="160" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-2" value="Activate &amp;amp; Setup 1st pin via KPLuS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-2" value="Activate &amp;amp; Setup 1st pin via KPLuS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-50" y="1080" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-3" value="K+" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1140" width="120" height="410" as="geometry" />
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-3" value="K+" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="1140" width="120" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-4" value="IIP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="1340" width="120" height="210" as="geometry" />
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-4" value="IIP" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="1340" width="120" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-5" value="CCMS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="1140" width="120" height="410" as="geometry" />
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-5" value="CCMS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="1140" width="120" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-6" value="Device / Mobile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-6" value="Device / Mobile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-20" y="1110" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.028;entryY=0.147;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fGg2CGAfQL9V5hrcDTFe-3">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="1200" as="sourcePoint" />
-            <mxPoint x="190" y="1150" as="targetPoint" />
+            <mxPoint x="277" y="1200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-8" value="1: request to activate card&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-8" value="1: request to activate card&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="135" y="1160" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-9" value="2: request to activate card&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-9" value="2: request to activate card&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="395" y="1160" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.028;entryY=0.147;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.028;entryY=0.147;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="1199" as="sourcePoint" />
             <mxPoint x="537" y="1199" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-11" value="EAI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-11" value="EAI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="1130" width="120" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.028;entryY=0.147;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.028;entryY=0.147;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="660" y="1199" as="sourcePoint" />
             <mxPoint x="797" y="1199" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-13" value="3: request to activate card&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-13" value="3: request to activate card&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="660" y="1160" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-14" value="change status from inactive to npc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-14" value="change status from inactive to npc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="820" y="1170" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.22;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fGg2CGAfQL9V5hrcDTFe-5">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.898;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="fGg2CGAfQL9V5hrcDTFe-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="1100" as="sourcePoint" />
             <mxPoint x="660" y="1230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-16" value="4: return activate complete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-16" value="4: return activate complete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="650" y="1200" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.22;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.972;entryY=0.616;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.22;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="540" y="1230" as="sourcePoint" />
-            <mxPoint x="397" y="1232" as="targetPoint" />
+            <mxPoint x="397" y="1230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-18" value="5: return activate complete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1208" width="160" height="30" as="geometry" />
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-18" value="5: return activate complete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="395" y="1205" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-21" value="Show setup first pin screen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry y="1208" width="110" height="30" as="geometry" />
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-21" value="Show change pin screen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-130" y="1260" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.028;entryY=0.147;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.028;entryY=0.147;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="1270" as="sourcePoint" />
             <mxPoint x="537" y="1270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-24" value="6: request get initial pin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-24" value="6: request get initial pin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="390" y="1248" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.028;entryY=0.147;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.028;entryY=0.147;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="660" y="1269" as="sourcePoint" />
             <mxPoint x="797" y="1269" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-28" value="7: request get initial pin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-28" value="7: request get initial pin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="650" y="1248" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.037;exitY=0.384;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.013;entryY=0.882;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fGg2CGAfQL9V5hrcDTFe-5" target="fGg2CGAfQL9V5hrcDTFe-11">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.861;exitY=0.786;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.013;entryY=0.882;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="fGg2CGAfQL9V5hrcDTFe-31" target="fGg2CGAfQL9V5hrcDTFe-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="1340" as="sourcePoint" />
             <mxPoint x="730" y="1290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-31" value="8: return ccms_ppk(pinblock)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-31" value="8: return ccms_ppk(pinblock)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="635" y="1274" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-33" value="Asis: return kplus_key (clear pin)&lt;div&gt;Tobe: return ccms_ppk(pinblock)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-33" value="Asis: return kplus_key (clear pin)&lt;div&gt;Tobe: return ccms_ppk(pinblock)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="820" y="1260" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.037;exitY=0.384;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.013;entryY=0.882;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.037;exitY=0.384;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.013;entryY=0.882;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="537" y="1301" as="sourcePoint" />
             <mxPoint x="403" y="1302" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fGg2CGAfQL9V5hrcDTFe-35" value="9: return ccms_ppk(pinblock)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="fGg2CGAfQL9V5hrcDTFe-35" value="9: return ccms_ppk(pinblock)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="390" y="1278" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.027;exitY=0.399;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.011;entryY=0.399;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="276.7600000000002" y="1395.5900000000001" as="sourcePoint" />
+            <mxPoint x="141.76000000000022" y="1395.5900000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-2" value="10: return activate complete&amp;nbsp;&lt;div&gt;+ ccms_ppk(pinblock)&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ rsa pb key&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1340" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.933;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TaZ9QqCCX3EuuxD8CFqb-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="1362" as="sourcePoint" />
+            <mxPoint x="470" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-4" value="10: request RSA pb key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1338" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.933;entryY=0.767;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TaZ9QqCCX3EuuxD8CFqb-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="1363" as="sourcePoint" />
+            <mxPoint x="710" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-6" value="11: request RSA pb key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1340" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="799" y="1390" as="sourcePoint" />
+            <mxPoint x="660" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-8" value="12: return pb key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1368" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.04;entryY=0.753;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TaZ9QqCCX3EuuxD8CFqb-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="1393" as="sourcePoint" />
+            <mxPoint x="450" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-10" value="13: return pb key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1370" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-11" value="&lt;div&gt;&lt;font color=&quot;#ff9933&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;1.&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;Gen ZPK&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;&lt;font color=&quot;#ff9933&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;&lt;font color=&quot;#ff9933&quot;&gt;2.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 10px;&quot;&gt;2.1: Case change pin:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 10px;&quot;&gt;Customer input current PIN&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 10px;&quot;&gt;Gen ISO PinBlock format 1&lt;br&gt;(not require PAN)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 10px;&quot;&gt;Encrypt current pin block with ZPK&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 10px;&quot;&gt;2.2: Case setup pin:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 10px;&quot;&gt;current pin = ccms_ppk(pinblock)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff9933&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 10px;&quot;&gt;4.&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 10px;&quot;&gt;Customer Input new PIN&lt;br&gt;Gen ISO PinBlock format 1&lt;br&gt;(not require PAN)&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;5.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 10px;&quot;&gt;Encrypt new pin block with ZPK&lt;br&gt;6.&lt;br&gt;Encrypt ZPK with RSA public key&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 10px;&quot;&gt;7.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 10px;&quot;&gt;ChangePinMode&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff9933&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Case: SetupPin =&amp;gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;ChangePinMode = 0&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff9933&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Case: ChangePin =&amp;gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;ChangePinMode = 1&lt;/span&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1450" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="145" y="1600" as="sourcePoint" />
+            <mxPoint x="275" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-18" value="11:&lt;div&gt;pb(zpk)&lt;/div&gt;&lt;div&gt;ChangePinMode&lt;/div&gt;&lt;div&gt;currentPin&lt;/div&gt;&lt;div&gt;newPin&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1520" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="1600" as="sourcePoint" />
+            <mxPoint x="535" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-20" value="12:&lt;div&gt;pb(zpk)&lt;/div&gt;&lt;div&gt;ChangePinMode&lt;/div&gt;&lt;div&gt;currentPin&lt;/div&gt;&lt;div&gt;newPin&lt;/div&gt;&lt;div&gt;CardNo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1500" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="665" y="1600" as="sourcePoint" />
+            <mxPoint x="795" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-22" value="13:&lt;div&gt;pb(zpk)&lt;/div&gt;&lt;div&gt;ChangePinMode&lt;/div&gt;&lt;div&gt;currentPin&lt;/div&gt;&lt;div&gt;newPin&lt;/div&gt;&lt;div&gt;CardNo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1500" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-23" value="decrypt PB(zpk) with PK and encrypt with LMK -&amp;gt; LMK(ZPK)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1548" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-25" value="Gen new Pin offset (update card holder)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-26" value="Verify current pin" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1518" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-27" value="Tandem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1560" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.923;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TaZ9QqCCX3EuuxD8CFqb-25" target="TaZ9QqCCX3EuuxD8CFqb-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="1630" as="sourcePoint" />
+            <mxPoint x="990" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-29" value="14: update pin offset" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1580" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.03;entryY=0.963;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fGg2CGAfQL9V5hrcDTFe-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="1640" as="sourcePoint" />
+            <mxPoint x="890" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-31" value="15: return complete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1618" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="1640" as="sourcePoint" />
+            <mxPoint x="670" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-33" value="16: return change pin complete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1618" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="1642" as="sourcePoint" />
+            <mxPoint x="410" y="1642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-35" value="17: return change pin complete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1620" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="1642" as="sourcePoint" />
+            <mxPoint x="150" y="1642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-37" value="18: return change pin complete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1620" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6FFCC;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1155" width="650" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6ffcc;strokeColor=#6c8ebf;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1254" width="650" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1340" width="910" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZ9QqCCX3EuuxD8CFqb-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1493" width="1050" height="167" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
