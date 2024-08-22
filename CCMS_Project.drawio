@@ -187,7 +187,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y4GZ2v-JGW4uYdWoJa4T" name="KPlus_ChangePin">
-    <mxGraphModel dx="1405" dy="-516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1405" dy="-566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -200,8 +200,8 @@
         <mxCell id="s4sVvPbw_b3RqCzsC3ED-42" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;" parent="1" vertex="1">
           <mxGeometry x="130" y="1270" width="160" height="1110" as="geometry" />
         </mxCell>
-        <mxCell id="s4sVvPbw_b3RqCzsC3ED-43" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Activate &amp;amp; Setup 1st pin&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="1210" width="300" height="30" as="geometry" />
+        <mxCell id="s4sVvPbw_b3RqCzsC3ED-43" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Activate, Setup 1st pin &amp;amp; change pin&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1210" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s4sVvPbw_b3RqCzsC3ED-44" value="K+" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;" parent="1" vertex="1">
           <mxGeometry x="430" y="1270" width="120" height="1110" as="geometry" />
