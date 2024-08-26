@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7" pages="3">
   <diagram name="Admin Card" id="fyqmloaNYQx6eK5vVG5Y">
     <mxGraphModel dx="2936" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -907,6 +907,80 @@
         </mxCell>
         <mxCell id="s4sVvPbw_b3RqCzsC3ED-103" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;opacity=30;" parent="1" vertex="1">
           <mxGeometry x="290" y="1557" width="910" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_H7NBjjDN9qwzZjT2Tbi" name="EOS LINUX">
+    <mxGraphModel dx="2506" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="680" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-2" value="FACTORY (EXISTING)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OdBlHnJEyYIKdez1ob1V-4" target="OdBlHnJEyYIKdez1ob1V-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-4" value="Build with image ccms:ydbmq&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ydb1.28&lt;/div&gt;&lt;div&gt;go1.12&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="90" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-5" value="FACTORY2 (NEW)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OdBlHnJEyYIKdez1ob1V-7" target="OdBlHnJEyYIKdez1ob1V-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-7" value="ARTIFACTORY" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="90" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-8" value="Deploy&lt;div&gt;Configuration from branch DevMaster&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="90" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OdBlHnJEyYIKdez1ob1V-10" target="OdBlHnJEyYIKdez1ob1V-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-10" value="&lt;b&gt;Impact App&lt;/b&gt;&lt;br&gt;Build with image ccms:ydb200&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ydb2.00&lt;/div&gt;&lt;div&gt;go1.20&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="310" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OdBlHnJEyYIKdez1ob1V-12" target="OdBlHnJEyYIKdez1ob1V-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-12" value="ARTIFACTORY" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-13" value="Deploy&lt;div&gt;Configuration from branch Factory2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="310" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OdBlHnJEyYIKdez1ob1V-15" target="OdBlHnJEyYIKdez1ob1V-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-15" value="&lt;b&gt;No Impact App&lt;/b&gt;&lt;br&gt;Build with image ccms:ydbmq&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ydb1.28&lt;/div&gt;&lt;div&gt;go1.12&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="410" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OdBlHnJEyYIKdez1ob1V-17" target="OdBlHnJEyYIKdez1ob1V-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-17" value="ARTIFACTORY" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="410" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-18" value="Deploy&lt;div&gt;Configuration from branch&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Factory2&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="410" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-19" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Note&lt;/h1&gt;&lt;p&gt;ใช้ concept ไม่แก้ app ที่ไม่ impact ใดๆ ทั้งสิ้น&lt;/p&gt;&lt;p&gt;เอา object ตัวเดิมไปรันที่ redhat8 เลย&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="50" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-20" value="&lt;div&gt;DB01&lt;/div&gt;YDB1.28" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-21" value="YDB2.00" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="600" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OdBlHnJEyYIKdez1ob1V-22" value="&lt;div&gt;DB02&lt;/div&gt;YDB1.28" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="760" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
