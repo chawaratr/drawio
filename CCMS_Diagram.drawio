@@ -550,12 +550,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rmSm5E9kc3xX8KyeMkYp" name="High Level Diagram">
-    <mxGraphModel dx="4186" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="4868" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="teF7Ud7q3Rwy-N2kiuKU-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-320" y="95" width="1480" height="965" as="geometry" />
+          <mxGeometry x="-320" y="40" width="1480" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="fr6utusO2Soy4jrnIeS3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fr6utusO2Soy4jrnIeS3-1" target="fr6utusO2Soy4jrnIeS3-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -855,6 +855,12 @@
         </mxCell>
         <mxCell id="fr6utusO2Soy4jrnIeS3-68" value="EDC / EComerce" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/business-startup-10/50/23-128.png" parent="1" vertex="1">
           <mxGeometry x="-250" y="323" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFKH-erCzDfIRePn0LGm-1" value="&lt;h1&gt;High Level Workflow Diagram&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="60" width="1480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFKH-erCzDfIRePn0LGm-2" value="F5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
