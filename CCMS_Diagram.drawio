@@ -1094,6 +1094,28 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="oSUtaA_Rx3DG9bgvm9ch-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-286.5" y="1270" as="sourcePoint" />
+            <mxPoint x="-196" y="1268.5294117647054" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oSUtaA_Rx3DG9bgvm9ch-29" value="Online" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oSUtaA_Rx3DG9bgvm9ch-28">
+          <mxGeometry x="-0.136" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oSUtaA_Rx3DG9bgvm9ch-32" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-199.5" y="1300" as="sourcePoint" />
+            <mxPoint x="-289.5" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oSUtaA_Rx3DG9bgvm9ch-33" value="Batch" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oSUtaA_Rx3DG9bgvm9ch-32">
+          <mxGeometry x="0.2739" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
