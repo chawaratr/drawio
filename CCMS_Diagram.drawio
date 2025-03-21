@@ -613,7 +613,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rmSm5E9kc3xX8KyeMkYp" name="High Level Diagram">
-    <mxGraphModel dx="4040" dy="1693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3757" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1302,6 +1302,15 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="768" y="1560" as="sourcePoint" />
             <mxPoint x="690" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meqwjeszYaZdV9VgHDZM-37" value="partner&lt;div&gt;เมืองไทยประกันชีวิต&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="meqwjeszYaZdV9VgHDZM-38" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;flowAnimation=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="meqwjeszYaZdV9VgHDZM-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-220" y="530" as="sourcePoint" />
+            <mxPoint x="-152" y="530.5899999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
