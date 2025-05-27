@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="13">
     <diagram id="3x-Z-4XqzYov96Zimmex" name="As-Is">
-        <mxGraphModel dx="2018" dy="462" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1004" dy="1393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1217,7 +1217,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="To-Be V2" id="BFzdH9XrJdxkya-qPt8g">
-        <mxGraphModel dx="1840" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1404" dy="993" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="7lX6vEWUvqOWZXnIQhHh-0"/>
                 <mxCell id="7lX6vEWUvqOWZXnIQhHh-1" parent="7lX6vEWUvqOWZXnIQhHh-0"/>
@@ -1854,7 +1854,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="Infra Deploy 9-10 May" id="J7xoenJmvjWyHGJyoASr">
-        <mxGraphModel dx="1601" dy="873" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1646" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="Fvsi7Oj8ctO_hdcMBmnh-0"/>
                 <mxCell id="Fvsi7Oj8ctO_hdcMBmnh-1" parent="Fvsi7Oj8ctO_hdcMBmnh-0"/>
@@ -3669,7 +3669,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="2NGyVt8drXEgC5SQjmXZ" name="Service Diagram To-Be">
-        <mxGraphModel dx="3226" dy="1202" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2846" dy="1210" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
