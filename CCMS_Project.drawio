@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="6">
     <diagram name="Admin Card" id="fyqmloaNYQx6eK5vVG5Y">
-        <mxGraphModel dx="2713" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+        <mxGraphModel dx="2777" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1587,26 +1587,26 @@
         </mxGraphModel>
     </diagram>
     <diagram id="_6GIQSBggj-zWU3TQ2LQ" name="W024: CRDMGNT">
-        <mxGraphModel dx="3043" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1756" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-92" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-92" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-280" y="520" width="1600" height="960" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-86" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-86" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry y="1195" width="1240" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-85" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-85" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry y="945" width="1240" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-84" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-84" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry y="737.5" width="1240" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-83" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-83" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry y="527.5" width="1240" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-36" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-36" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
                     <mxGeometry x="910" y="990" width="190" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="eUPPWAPMsNKlkntBLW9E-1" value="&lt;ul&gt;&lt;li&gt;เพิ่ม (impact ui, api, backend, db.cardtmpl, db.card)&lt;/li&gt;&lt;li&gt;วงเงินถอนต่อครั้ง&lt;/li&gt;&lt;li&gt;วงเงินโอนต่อครั้ง&lt;/li&gt;&lt;li&gt;วงเงินซื้อ online ต่อครั้ง&lt;/li&gt;&lt;li&gt;วงเงินซื้อ offline ต่อครั้ง&lt;/li&gt;&lt;li&gt;วงเงินซื้อ online ต่อวัน&lt;/li&gt;&lt;li&gt;วงเงินซื้อ offline ต่อวัน (ใช้ card purchase. limit เดิม)&lt;/li&gt;&lt;li&gt;วงเงิน card tmpl max online limit&lt;/li&gt;&lt;li&gt;วงเงิน card tmpl max offline limit (ใช้ของเดิม)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -1618,287 +1618,287 @@
                 <mxCell id="eUPPWAPMsNKlkntBLW9E-3" value="impact online interface:&lt;div&gt;&lt;ul&gt;&lt;li&gt;Withdraw&lt;/li&gt;&lt;li&gt;Transfer&lt;/li&gt;&lt;li&gt;PurchaseOnline&lt;/li&gt;&lt;li&gt;PurchaseOffline&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="40" y="300" width="150" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-1" value="Request Lock Card" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-1" value="Request Lock Card" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
                     <mxGeometry x="30" y="530" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="600" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-3" value="K+ Client (old version)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-3" value="K+ Client (old version)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="40" y="570" width="130" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="600" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-5" value="K+ Backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-5" value="K+ Backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="280" y="570" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="510" y="600" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-7" value="EAI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-7" value="EAI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="510" y="570" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="760" y="600" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-9" value="CCMS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-9" value="CCMS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="760" y="570" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-10" value="Withdraw = 0&lt;br&gt;Transfer = 0&lt;br&gt;Purchase = 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-10" value="Withdraw = 0&lt;br&gt;Transfer = 0&lt;br&gt;Purchase = 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="52.5" y="620" width="95" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-11" value="Withdraw = 0&lt;br&gt;Transfer = 0&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Purchase = 0&lt;/span&gt;&lt;br&gt;&lt;b&gt;&lt;font&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;PurchaseOnline = 0&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;PurchaseOffline = 0&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-11" value="Withdraw = 0&lt;br&gt;Transfer = 0&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Purchase = 0&lt;/span&gt;&lt;br&gt;&lt;b&gt;&lt;font&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;PurchaseOnline = 0&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;PurchaseOffline = 0&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="276.25" y="610" width="123.75" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-12" value="Withdraw = 0&lt;br&gt;Transfer = 0&lt;br&gt;PurchaseOnline = 0&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 0&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-12" value="Withdraw = 0&lt;br&gt;Transfer = 0&lt;br&gt;PurchaseOnline = 0&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 0&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="516.25" y="620" width="107.5" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-13" value="Withdraw = 0&lt;br&gt;Transfer = 0&lt;br&gt;PurchaseOnline = 0&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 0&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-13" value="Withdraw = 0&lt;br&gt;Transfer = 0&lt;br&gt;PurchaseOnline = 0&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 0&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="766.25" y="620" width="107.5" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-14" value="ขอปรับทุกวงเงิน และค่าที่ส่งมา = 0 &amp;gt;&amp;gt; Set Locked = True" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-14" value="ขอปรับทุกวงเงิน และค่าที่ส่งมา = 0 &amp;gt;&amp;gt; Set Locked = True" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="920" y="600" width="320" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-15" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.006;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" target="KiBmFnOmbl8GqisgicS4-11">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-15" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.006;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" target="KiBmFnOmbl8GqisgicS4-11" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="160" y="640" as="sourcePoint"/>
                         <mxPoint x="210" y="590" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-16" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-16" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="400" y="641" as="sourcePoint"/>
                         <mxPoint x="510" y="640" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-17" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=-0.025;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" target="KiBmFnOmbl8GqisgicS4-8">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-17" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=-0.025;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" target="KiBmFnOmbl8GqisgicS4-8" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="630" y="641" as="sourcePoint"/>
                         <mxPoint x="748" y="640" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-18" value="Show Lock Card" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-18" value="Show Lock Card" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
                     <mxGeometry x="20" y="950" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="30" y="1010" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-20" value="K+ Client (old version)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-20" value="K+ Client (old version)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="30" y="980" width="130" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="270" y="1010" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-22" value="K+ Backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-22" value="K+ Backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="270" y="980" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="1010" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-24" value="EAI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-24" value="EAI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="500" y="980" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="750" y="1010" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-26" value="CCMS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-26" value="CCMS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="750" y="980" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-27" value="Withdraw = 0&lt;br&gt;Transfer = 0&lt;br&gt;Purchase = 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-27" value="Withdraw = 0&lt;br&gt;Transfer = 0&lt;br&gt;Purchase = 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="42.5" y="1030" width="95" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-28" value="Withdraw = 0&lt;br&gt;Transfer = 0&lt;br&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font&gt;PurchaseOnline = 0&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;&lt;font&gt;PurchaseOffline = 0&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;Purchase = 0&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-28" value="Withdraw = 0&lt;br&gt;Transfer = 0&lt;br&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font&gt;PurchaseOnline = 0&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;&lt;font&gt;PurchaseOffline = 0&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;Purchase = 0&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="266.25" y="1020" width="123.75" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-32" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=1;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#CCFFCC;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="KiBmFnOmbl8GqisgicS4-19" source="KiBmFnOmbl8GqisgicS4-28">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-32" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=1;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#CCFFCC;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KiBmFnOmbl8GqisgicS4-28" target="KiBmFnOmbl8GqisgicS4-19" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="230" y="1110" as="sourcePoint"/>
                         <mxPoint x="200" y="1000" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-33" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#CCFFCC;exitX=-0.017;exitY=0.408;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KiBmFnOmbl8GqisgicS4-23" target="KiBmFnOmbl8GqisgicS4-28">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-33" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#CCFFCC;exitX=-0.017;exitY=0.408;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KiBmFnOmbl8GqisgicS4-23" target="KiBmFnOmbl8GqisgicS4-28" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="380" y="1181" as="sourcePoint"/>
                         <mxPoint x="490" y="1180" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-34" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=1.025;entryY=0.442;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#CCFFCC;exitX=-0.017;exitY=0.442;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="KiBmFnOmbl8GqisgicS4-23" source="KiBmFnOmbl8GqisgicS4-25">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-34" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=1.025;entryY=0.442;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#CCFFCC;exitX=-0.017;exitY=0.442;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="KiBmFnOmbl8GqisgicS4-25" target="KiBmFnOmbl8GqisgicS4-23" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="629.25" y="1171.04" as="sourcePoint"/>
                         <mxPoint x="756.25" y="1170" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-35" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;PurchaseOnline = 3000&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 3000&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-35" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;PurchaseOnline = 3000&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 3000&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="935" y="1040" width="140" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-37" value="Locked = True" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-37" value="Locked = True" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="945" y="1120" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-38" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;วงเงินเป็น 0 ทั้งหมด โชว์บัตร lock&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-38" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;วงเงินเป็น 0 ทั้งหมด โชว์บัตร lock&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="31.5" y="1100" width="117" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-39" value="วงเงินบัตรปกติ แต่บัตรติด flag lock" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-39" value="วงเงินบัตรปกติ แต่บัตรติด flag lock" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="1110" y="990" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-41" value="Request UnLock Card" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-41" value="Request UnLock Card" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
                     <mxGeometry x="30" y="740" width="140" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="810" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-43" value="K+ Client (old version)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-43" value="K+ Client (old version)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="40" y="780" width="130" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="810" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-45" value="K+ Backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-45" value="K+ Backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="280" y="780" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="510" y="810" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-47" value="EAI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-47" value="EAI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="510" y="780" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="760" y="810" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-49" value="CCMS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-49" value="CCMS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="760" y="780" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-50" value="Withdraw = 20K&lt;br&gt;Transfer = 10K&lt;br&gt;Purchase = 50K" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-50" value="Withdraw = 20K&lt;br&gt;Transfer = 10K&lt;br&gt;Purchase = 50K" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="52.5" y="830" width="95" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-51" value="Withdraw = 20K&lt;br&gt;Transfer = 10K&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Purchase = 50K&lt;/span&gt;&lt;br&gt;&lt;b&gt;&lt;font&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;PurchaseOnline = 50K&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;PurchaseOffline = 50K&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-51" value="Withdraw = 20K&lt;br&gt;Transfer = 10K&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Purchase = 50K&lt;/span&gt;&lt;br&gt;&lt;b&gt;&lt;font&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;PurchaseOnline = 50K&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;PurchaseOffline = 50K&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="276.25" y="820" width="133.75" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-52" value="Withdraw = 20K&lt;br&gt;Transfer = 10K&lt;br&gt;PurchaseOnline = 50K&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 50K&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-52" value="Withdraw = 20K&lt;br&gt;Transfer = 10K&lt;br&gt;PurchaseOnline = 50K&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 50K&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="500" y="830" width="133.75" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-54" value="ขอปรับทุกวงเงิน และค่าที่ส่งมา != 0 &amp;gt;&amp;gt; Set Locked = False" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-54" value="ขอปรับทุกวงเงิน และค่าที่ส่งมา != 0 &amp;gt;&amp;gt; Set Locked = False" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="920" y="810" width="320" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-55" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.006;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#CCFFCC;" edge="1" parent="1" target="KiBmFnOmbl8GqisgicS4-51">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-55" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.006;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#CCFFCC;" parent="1" target="KiBmFnOmbl8GqisgicS4-51" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="160" y="850" as="sourcePoint"/>
                         <mxPoint x="210" y="800" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-56" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#CCFFCC;" edge="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-56" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#CCFFCC;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="400" y="851" as="sourcePoint"/>
                         <mxPoint x="510" y="850" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-57" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=-0.025;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#CCFFCC;" edge="1" parent="1" target="KiBmFnOmbl8GqisgicS4-48">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-57" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=-0.025;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#CCFFCC;" parent="1" target="KiBmFnOmbl8GqisgicS4-48" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="630" y="851" as="sourcePoint"/>
                         <mxPoint x="748" y="850" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-58" value="Withdraw = 20K&lt;br&gt;Transfer = 10K&lt;br&gt;PurchaseOnline = 50K&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 50K&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-58" value="Withdraw = 20K&lt;br&gt;Transfer = 10K&lt;br&gt;PurchaseOnline = 50K&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 50K&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="750" y="830" width="133.75" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-59" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-59" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
                     <mxGeometry x="920" y="1240" width="190" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-60" value="Show Normal Card" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-60" value="Show Normal Card" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
                     <mxGeometry x="30" y="1200" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="1260" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-62" value="K+ Client (old version)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-62" value="K+ Client (old version)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="40" y="1230" width="130" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="1260" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-64" value="K+ Backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-64" value="K+ Backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="280" y="1230" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="510" y="1260" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-66" value="EAI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-66" value="EAI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="510" y="1230" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-67" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-67" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="760" y="1260" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-68" value="CCMS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-68" value="CCMS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="760" y="1230" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-69" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;Purchase = 3000" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-69" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;Purchase = 3000" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="52.5" y="1280" width="95" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-73" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=1;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#CCFFCC;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="KiBmFnOmbl8GqisgicS4-61">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-73" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=1;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#CCFFCC;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="KiBmFnOmbl8GqisgicS4-61" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="276.25" y="1310" as="sourcePoint"/>
                         <mxPoint x="210" y="1250" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-74" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#CCFFCC;exitX=-0.017;exitY=0.408;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KiBmFnOmbl8GqisgicS4-65">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-74" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#CCFFCC;exitX=-0.017;exitY=0.408;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KiBmFnOmbl8GqisgicS4-65" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="390" y="1431" as="sourcePoint"/>
                         <mxPoint x="400" y="1310" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-75" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=1.025;entryY=0.442;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#CCFFCC;exitX=-0.017;exitY=0.442;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KiBmFnOmbl8GqisgicS4-67" target="KiBmFnOmbl8GqisgicS4-65">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-75" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=1.025;entryY=0.442;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#CCFFCC;exitX=-0.017;exitY=0.442;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="KiBmFnOmbl8GqisgicS4-67" target="KiBmFnOmbl8GqisgicS4-65" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="639.25" y="1421.04" as="sourcePoint"/>
                         <mxPoint x="766.25" y="1420" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-76" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;PurchaseOnline = 3000&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 3000&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-76" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;PurchaseOnline = 3000&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 3000&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="945" y="1290" width="140" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-77" value="Locked = False" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-77" value="Locked = False" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="955" y="1370" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-78" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp;โชว์บัตรปกติ ไม่โดน lock&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-78" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp;โชว์บัตรปกติ ไม่โดน lock&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="41.5" y="1350" width="117" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-80" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;PurchaseOnline = 3000&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 3000&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-80" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;PurchaseOnline = 3000&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 3000&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="750" y="1290" width="140" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-81" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;PurchaseOnline = 3000&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 3000&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-81" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;PurchaseOnline = 3000&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 3000&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="500" y="1290" width="140" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-82" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;PurchaseOnline = 3000&lt;br&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 3000&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;Purchase = 3000&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-82" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;PurchaseOnline = 3000&lt;br&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 3000&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;Purchase = 3000&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="268.13" y="1290" width="140" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-87" value="&lt;b&gt;Scenario1: ขอ lock บัตร&lt;/b&gt;&lt;br&gt;K+ client version เก่า จะส่งปรับทุกวงเงินมาเป็น 0&lt;br&gt;K+Backend ต้องทำการเพิ่ม fields PurchaseOnline=0 และ PurchaseOffline=0&lt;br&gt;เมื่อ ccms พบว่าทุกวงเงินที่ขอปรับ =0 จะทำการ lock บัตร" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-87" value="&lt;b&gt;Scenario1: ขอ lock บัตร&lt;/b&gt;&lt;br&gt;K+ client version เก่า จะส่งปรับทุกวงเงินมาเป็น 0&lt;br&gt;K+Backend ต้องทำการเพิ่ม fields PurchaseOnline=0 และ PurchaseOffline=0&lt;br&gt;เมื่อ ccms พบว่าทุกวงเงินที่ขอปรับ =0 จะทำการ lock บัตร" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-270" y="600" width="190" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-89" value="&lt;b&gt;Scenario2: ขอ ปลด lock บัตร&lt;/b&gt;&lt;br&gt;K+ client version เก่า จะส่งปรับทุกวงเงินมาเป็น วงเงิน default&lt;br&gt;K+Backend ต้องทำการเพิ่ม fields PurchaseOnline=purchase และ PurchaseOffline=purchase&lt;br&gt;เมื่อ ccms พบว่าทุกวงเงินที่ขอปรับ ไม่เป็น 0 จะทำการปลด lock บัตร" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-89" value="&lt;b&gt;Scenario2: ขอ ปลด lock บัตร&lt;/b&gt;&lt;br&gt;K+ client version เก่า จะส่งปรับทุกวงเงินมาเป็น วงเงิน default&lt;br&gt;K+Backend ต้องทำการเพิ่ม fields PurchaseOnline=purchase และ PurchaseOffline=purchase&lt;br&gt;เมื่อ ccms พบว่าทุกวงเงินที่ขอปรับ ไม่เป็น 0 จะทำการปลด lock บัตร" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-270" y="830" width="190" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-90" value="&lt;b&gt;Scenario3: แสดงสถานะบัตรที่ถูก lock อยู่&lt;br&gt;&lt;/b&gt;ccms จะ return วงเงินกลับไปตามจริง&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;k+ backend จะเชค lock flag ถ้าพบว่าบัตร lock อยู่ ต้อง override วงเงินทั้งหมดเป็น 0&lt;br&gt;&lt;br&gt;เมื่อ K+ client ได้ทุกวงเงินเป็น 0 จะแสดงว่าบัตรถูก lock อยู่&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-90" value="&lt;b&gt;Scenario3: แสดงสถานะบัตรที่ถูก lock อยู่&lt;br&gt;&lt;/b&gt;ccms จะ return วงเงินกลับไปตามจริง&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;k+ backend จะเชค lock flag ถ้าพบว่าบัตร lock อยู่ ต้อง override วงเงินทั้งหมดเป็น 0&lt;br&gt;&lt;br&gt;เมื่อ K+ client ได้ทุกวงเงินเป็น 0 จะแสดงว่าบัตรถูก lock อยู่&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-260" y="1055" width="210" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-91" value="&lt;b&gt;Scenario4: แสดงสถานะบัตรปกติ&lt;br&gt;&lt;/b&gt;เมื่อ ccms พบว่า บัตรใบดังกล่าว ไม่ถูก lock อยู่&lt;br&gt;จะ return ทุกวงเงินกลับไปให้ตามจริง&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;k+ backend ต้องคำนวณฟิล purchase ใหม่ โดย&lt;br&gt;purchase =&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline&lt;/span&gt;&lt;br&gt;ซึ่งกรณีนี้ จะได้ purchase = 3000&lt;br&gt;เมื่อ K+ client ได้ทุกวงเงินไม่เป็น 0 จะแสดงว่าบัตรใช้งานได้&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-91" value="&lt;b&gt;Scenario4: แสดงสถานะบัตรปกติ&lt;br&gt;&lt;/b&gt;เมื่อ ccms พบว่า บัตรใบดังกล่าว ไม่ถูก lock อยู่&lt;br&gt;จะ return ทุกวงเงินกลับไปให้ตามจริง&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;k+ backend ต้องคำนวณฟิล purchase ใหม่ โดย&lt;br&gt;purchase =&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline&lt;/span&gt;&lt;br&gt;ซึ่งกรณีนี้ จะได้ purchase = 3000&lt;br&gt;เมื่อ K+ client ได้ทุกวงเงินไม่เป็น 0 จะแสดงว่าบัตรใช้งานได้&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-240" y="1310" width="210" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-93" value="**หมายเหตุ**&lt;div&gt;ถ้า ลค ยังคงใช้ K+ version เก่า วงเงิน purchaseOnline และ purchaseOffline จะเท่ากันเสมอ&lt;/div&gt;&lt;div&gt;เนื่องจากการปรับวงเงินแบบแยก purchaseOnline และ purchseOffline จะมาจากช่องทาง K+ version ใหม่เท่านั้น&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-93" value="**หมายเหตุ**&lt;div&gt;ถ้า ลค ยังคงใช้ K+ version เก่า วงเงิน purchaseOnline และ purchaseOffline จะเท่ากันเสมอ&lt;/div&gt;&lt;div&gt;เนื่องจากการปรับวงเงินแบบแยก purchaseOnline และ purchseOffline จะมาจากช่องทาง K+ version ใหม่เท่านั้น&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="32" y="1440" width="1108" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-94" value="Reject ถ้าหากถูก lock by fraud" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-94" value="Reject ถ้าหากถูก lock by fraud" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="920" y="860" width="320" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-95" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;PurchaseOnline = 3000&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 3000&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-95" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;PurchaseOnline = 3000&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 3000&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="746.88" y="1040" width="140" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="KiBmFnOmbl8GqisgicS4-96" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;PurchaseOnline = 3000&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 3000&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="KiBmFnOmbl8GqisgicS4-96" value="Withdraw = 1000&lt;br&gt;Transfer = 2000&lt;br&gt;PurchaseOnline = 3000&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;PurchaseOffline = 3000&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="493.75" y="1040" width="140" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="bnvbIhZjMu4xvdLDC2Tb" name="W026: จัดการบัญชีม้า (online)">
-        <mxGraphModel dx="1588" dy="1745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2116" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -2140,7 +2140,7 @@
                     <mxGeometry x="665" y="558" width="50" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="MqukLzfjDpStMjT6NJBU-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-280" y="680" width="1480" height="850" as="geometry"/>
+                    <mxGeometry x="-280" y="680" width="1480" height="1010" as="geometry"/>
                 </mxCell>
                 <mxCell id="MqukLzfjDpStMjT6NJBU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MqukLzfjDpStMjT6NJBU-3" target="MqukLzfjDpStMjT6NJBU-7" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -2151,7 +2151,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="MqukLzfjDpStMjT6NJBU-3" value="&lt;h4&gt;772 CCMS&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-                    <mxGeometry x="560" y="795" width="170" height="695" as="geometry"/>
+                    <mxGeometry x="560" y="795" width="170" height="845" as="geometry"/>
                 </mxCell>
                 <mxCell id="MqukLzfjDpStMjT6NJBU-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="MqukLzfjDpStMjT6NJBU-5" target="MqukLzfjDpStMjT6NJBU-3" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -2488,10 +2488,10 @@
                 <mxCell id="MqukLzfjDpStMjT6NJBU-92" value="&lt;h1&gt;Data Flow Diagram&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-210" y="10" width="1480" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="MqukLzfjDpStMjT6NJBU-93" value="CRP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                <mxCell id="MqukLzfjDpStMjT6NJBU-93" value="CRP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="812" y="1421.47" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="MqukLzfjDpStMjT6NJBU-97" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1.015;entryY=0.491;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" edge="1">
+                <mxCell id="MqukLzfjDpStMjT6NJBU-97" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1.015;entryY=0.491;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="808" y="1456.27" as="sourcePoint"/>
                         <mxPoint x="730" y="1456.27" as="targetPoint"/>
@@ -2513,11 +2513,45 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="S5KlEQhc1xCuDUQi-Jee-1" value="UCENTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="812" y="1501.47" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="S5KlEQhc1xCuDUQi-Jee-2" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;flowAnimation=1;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.974;exitY=0.871;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MqukLzfjDpStMjT6NJBU-3" target="S5KlEQhc1xCuDUQi-Jee-1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="710" y="1680" as="sourcePoint"/>
+                        <mxPoint x="730" y="1536.27" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="S5KlEQhc1xCuDUQi-Jee-3" value="noti feed k+" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="S5KlEQhc1xCuDUQi-Jee-2">
+                    <mxGeometry x="0.1795" y="-4" relative="1" as="geometry">
+                        <mxPoint x="-8" y="-15" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="S5KlEQhc1xCuDUQi-Jee-8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="S5KlEQhc1xCuDUQi-Jee-4" target="S5KlEQhc1xCuDUQi-Jee-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="S5KlEQhc1xCuDUQi-Jee-4" value="CMP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="813" y="1580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="S5KlEQhc1xCuDUQi-Jee-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;flowAnimation=1;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.997;exitY=0.937;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="S5KlEQhc1xCuDUQi-Jee-4">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="730" y="1609.53" as="sourcePoint"/>
+                        <mxPoint x="731" y="1614.8" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="S5KlEQhc1xCuDUQi-Jee-6" value="noti SMS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="S5KlEQhc1xCuDUQi-Jee-5">
+                    <mxGeometry x="0.1795" y="-4" relative="1" as="geometry">
+                        <mxPoint x="-8" y="-15" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="S5KlEQhc1xCuDUQi-Jee-7" value="SMSGW" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="1580" width="120" height="60" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="RjTLdcyzsUIPaQ9v7Bq9" name="W027: จัดการบัญชีม้า (batch)">
-        <mxGraphModel dx="1025" dy="1595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1506" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -2841,6 +2875,109 @@
                 <mxCell id="dS4cDD7FKftVi-lreSEV-3" value="download + unzip" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="590" y="660" width="60" height="30" as="geometry"/>
                 </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="ECD4nZ9jRClB00jqCYRq" name="FCD">
+        <mxGraphModel dx="2095" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-360" y="10" width="1480" height="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="BDrtwPs4fNsqDDxakS9p-2" value="CARD{&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;FCD_ACCOUNT&lt;/font&gt;&lt;br&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="140" width="350" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-1" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="200" as="sourcePoint"/>
+                        <mxPoint x="330" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-2" value="InquiryCardInfo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="178" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-3" value="EAI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="170" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-6" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cfmat4pbbiTm69UTCcus-4" target="Cfmat4pbbiTm69UTCcus-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-4" value="S1, SF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-80" y="130" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-7" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cfmat4pbbiTm69UTCcus-5" target="Cfmat4pbbiTm69UTCcus-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-5" value="KPlus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-80" y="210" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-8" value="ต้องเพิ่ม retun บัญชี FCD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="130" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-12" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="Cfmat4pbbiTm69UTCcus-9" target="Cfmat4pbbiTm69UTCcus-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-9" value="ATM Tandem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-180" y="320" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-13" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="Cfmat4pbbiTm69UTCcus-10" target="Cfmat4pbbiTm69UTCcus-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-10" value="B24RT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-70" y="320" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-11" value="Midway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="320" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-14" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="BDrtwPs4fNsqDDxakS9p-2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="110" y="350" as="sourcePoint"/>
+                        <mxPoint x="160" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-15" value="ATM Transaction&lt;div&gt;อาจจะต้องเพิ่ม&amp;nbsp;&lt;/div&gt;&lt;div&gt;transaction currency&lt;/div&gt;&lt;div&gt;transaction code ใหม่?&lt;/div&gt;&lt;div&gt;เพื่อให้ ccms รู้และ return บัญชี FCD แทน CASA&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="340" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-16" value="การจัดการวงเงิน&lt;div&gt;วงเงิน FCD น่าจะใช้ร่วมกับ CASA ไม่ได้ เพราะคนละสกุลเงิน ?&lt;/div&gt;&lt;div&gt;ใครแปลงเป็น Thai Baht?&lt;/div&gt;&lt;div&gt;ต้องแปลงมาตั้งแต่ขา auth เพื่อใช้ compare limit ?&lt;br&gt;Transaction flow อาจจะเปลี่ยน หรือ ccms ต้อง call external app เพื่อขอ rate? convert ค่าเงินโดยใคร?&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="230" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-17" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="Cfmat4pbbiTm69UTCcus-18" target="Cfmat4pbbiTm69UTCcus-20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-18" value="EDC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-180" y="455" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-19" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="Cfmat4pbbiTm69UTCcus-20" target="Cfmat4pbbiTm69UTCcus-21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-20" value="CardLink" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-70" y="455" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-21" value="Midway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="455" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-22" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="110" y="485" as="sourcePoint"/>
+                        <mxPoint x="340" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-23" value="EDC, Ecommerce Transaction&lt;div&gt;อาจจะต้องเพิ่ม&amp;nbsp;&lt;/div&gt;&lt;div&gt;transaction currency&lt;/div&gt;&lt;div&gt;transaction code ใหม่?&lt;/div&gt;&lt;div&gt;เพื่อให้ ccms รู้และ return บัญชี FCD แทน CASA&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="475" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cfmat4pbbiTm69UTCcus-25" value="ถ้าจะให้สวย Midway ต้องสามารถแยก transaction code ได้ก่อนเลยว่า ลค ต้องการใช้บัญชี FCD และ call external app ที่เกี่ยวข้องเพื่อแปลงเป็น Thai Baht แล้วค่อยส่งหา ccms เพื่อ auth บัตรและบัญชี" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="360" width="320" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="ArPuFkONOkUPbVm5rrhi" name="Page-12">
+        <mxGraphModel dx="1245" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
             </root>
         </mxGraphModel>
     </diagram>
