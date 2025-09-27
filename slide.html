@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deployment Timeline: Ultra Concise</title>
+    <style>
+        /* --- General Styles --- */
+        body {
+            font-family: 'Sukhumvit Set', 'Kanit', sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 650px; /* ลดความกว้างเพื่อให้ดูเป็นระเบียบยิ่งขึ้น */
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #1a73e8; /* Google Blue */
+            text-align: center;
+            margin-bottom: 5px;
+            font-size: 2em;
+        }
+        h2 {
+            color: #7f8c8d;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1em;
+        }
+
+        /* --- Concise Table / List Style --- */
+        .timeline-list {
+            list-style: none;
+            padding: 0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .timeline-item {
+            display: flex;
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+            align-items: center;
+        }
+        .timeline-item:last-child {
+            border-bottom: none;
+        }
+        
+        /* Time Column */
+        .time-col {
+            flex-basis: 150px;
+            min-width: 150px;
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #c0392b; /* สีแดงเข้มเน้นเวลา */
+            padding-right: 15px;
+            border-right: 2px solid #ecf0f1;
+            display: flex;
+            flex-direction: column;
+        }
+        .date-label {
+            font-size: 0.75em;
+            font-weight: normal;
+            color: #95a5a6;
+            margin-bottom: 2px;
+        }
+
+        /* Activity Column */
+        .activity-col {
+            flex-grow: 1;
+            padding-left: 15px;
+            font-weight: 500;
+        }
+        
+        /* Highlight Checkpoints/Critical Steps */
+        .checkpoint .time-col {
+            color: #e67e22; /* Orange for Checkpoints */
+        }
+        .online-deploy .activity-col {
+            background-color: #e8eaf6; /* Light Blue BG */
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        
+        /* --- Policy Box --- */
+        .policy-box {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #f8e7e7;
+            border: 1px solid #e74c3c;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        .policy-box strong {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🗓️ สรุป Deployment Timeline</h1>
+    <h2>CCMS Go-Live: 3 - 4 ก.ย. (รูปแบบกระชับที่สุด)</h2>
+
+    <ul class="timeline-list">
+        
+        <li class="timeline-item">
+            <div class="time-col">
+                <span class="date-label">3 ก.ย.</span>
+                20:00 🚀
+            </div>
+            <div class="activity-col">Deploy **Control-M**</div>
+        </li>
+
+        <li class="timeline-item checkpoint">
+            <div class="time-col">
+                <span class="date-label">3 ก.ย.</span>
+                23:00 🚦
+            </div>
+            <div class="activity-col">รอตรวจสอบผล Deploy **EAI**</div>
+        </li>
+        
+        <li class="timeline-item checkpoint">
+            <div class="time-col">
+                <span class="date-label">4 ก.ย.</span>
+                02:00 🛑
+            </div>
+            <div class="activity-col">**รอ Batch Daily รันจบ (Pre-requisite)**</div>
+        </li>
+
+        <li class="timeline-item online-deploy">
+            <div class="time-col">
+                <span class="date-label">4 ก.ย.</span>
+                03:00 💻
+            </div>
+            <div class="activity-col">Deploy **โปรแกรม Online**</div>
+        </li>
+        
+        <li class="timeline-item online-deploy checkpoint">
+            <div class="time-col">
+                <span class="date-label">4 ก.ย.</span>
+                03:30 🧪
+            </div>
+            <div class="activity-col">**IVT/PVT** โปรแกรม Online</div>
+        </li>
+
+        <li class="timeline-item">
+            <div class="time-col">
+                <span class="date-label">4 ก.ย.</span>
+                04:00 ⚙️
+            </div>
+            <div class="activity-col">Deploy **โปรแกรม Batch**</div>
+        </li>
+        
+        <li class="timeline-item">
+            <div class="time-col">
+                <span class="date-label">4 ก.ย.</span>
+                04:30 📊
+            </div>
+            <div class="activity-col">Run **Batch Delta (initial R1)**</div>
+        </li>
+        
+        <li class="timeline-item checkpoint">
+            <div class="time-col">
+                <span class="date-label">4 ก.ย.</span>
+                08:00 ✅
+            </div>
+            <div class="activity-col">ตรวจสอบการส่ง **Feed, SMS**</div>
+        </li>
+
+        <li class="timeline-item">
+            <div class="time-col">
+                <span class="date-label">4 ก.ย.</span>
+                10:00 👁️
+            </div>
+            <div class="activity-col">Monitor **Batch Adhoc** (จบขั้นตอน)</div>
+        </li>
+    </ul>
+
+    <div class="policy-box">
+        <p><strong>🚨 No-Go Policy:</strong> CCMS จะไม่ Rollback โปรแกรมที่ Deploy หากสาเหตุการ No Go เกิดจากแอปพลิเคชันอื่น</p>
+    </div>
+
+</div>
+
+</body>
+</html>
